@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "target": "ES2015",
+    "allowJs": false,
+    "checkJs": false,
+    "strict": true,
+    "declaration": true,
+    "typeRoots": [
+      "./types",
+      "./node_modules/@types",
+    ],
+  },
+  "exclude": ["**/*.spec.ts"],
+}

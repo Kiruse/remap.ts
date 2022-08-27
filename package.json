@@ -1,0 +1,25 @@
+{
+  "name": "@kiruse/remap",
+  "version": "0.1.0",
+  "description": "Alternative to built-in Map & Set which map keys to computed strings so different object instances may share the same key.",
+  "main": "index.js",
+  "repository": "https://github.com/Kiruse/remap.ts.git",
+  "author": "kiruse <26940742+Kiruse@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "object-hash": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.3.3",
+    "@types/jest": "^28.1.8",
+    "@types/node": "^18.7.13",
+    "chai": "^4.3.6",
+    "jest": "^29.0.1",
+    "ts-jest": "^28.0.8",
+    "typescript": "^4.8.2"
+  },
+  "private": false
+}
